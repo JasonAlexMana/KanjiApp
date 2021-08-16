@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KanjiButton">
-        <activity android:name=".Setting"></activity>
+        <activity android:name=".KanjiListJapanese"></activity>
+        <activity android:name=".KanjiListRomanized" />
+        <activity android:name=".Setting" />
         <activity android:name=".KanjiList" />
         <activity android:name=".MainActivity">
             <intent-filter>

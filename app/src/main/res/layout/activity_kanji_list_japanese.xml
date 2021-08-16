@@ -2,10 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KanjiList">
+    tools:context=".KanjiListJapanese">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -86,7 +85,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="海"
+                        android:text="海\numi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -123,7 +122,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="山"
+                        android:text="山\nyama"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -159,7 +158,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="日本語"
+                        android:text="日本語\nni hon go"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -195,7 +194,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="東京"
+                        android:text="東京\nto kyo"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -230,7 +229,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="日本"
+                        android:text="日本\nni hon"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -266,7 +265,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="学生"
+                        android:text="学生\ngaku sei"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -302,7 +301,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="会社員"
+                        android:text="会社員\nkai sha in"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -337,7 +336,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="中国人"
+                        android:text="中国人\nchu goku jin"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -372,7 +371,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="飯"
+                        android:text="飯\nmeshi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -407,7 +406,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="肉"
+                        android:text="肉\nniku"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -442,7 +441,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="卵"
+                        android:text="卵\ntamago"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -478,7 +477,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="料理"
+                        android:text="料理\nryo ri"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -514,7 +513,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="家"
+                        android:text="家\nie"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -549,7 +548,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="部屋"
+                        android:text="部屋\nku ya"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -584,7 +583,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="棚"
+                        android:text="棚\ntana"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -619,7 +618,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="台所"
+                        android:text="台所\ndai koro"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -654,7 +653,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="起きる"
+                        android:text="起きる\no ki ru"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -689,7 +688,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="運動"
+                        android:text="運動\nun do"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -724,7 +723,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="帰る"
+                        android:text="帰る\nkae ru"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -759,7 +758,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="行く"
+                        android:text="行く\ni ku"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -794,7 +793,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="火"
+                        android:text="火\nhi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -829,7 +828,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="水"
+                        android:text="水\nmizu"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -864,7 +863,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="土"
+                        android:text="土\ntsuchi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -899,7 +898,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="野球"
+                        android:text="野球\nya kyu"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -934,7 +933,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="柔道"
+                        android:text="柔道\nju do"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -969,7 +968,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="話す"
+                        android:text="話す\nhana su"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1004,7 +1003,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="読む"
+                        android:text="読む\nyo mu"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1039,7 +1038,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="音楽"
+                        android:text="音楽\non gaku"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1074,7 +1073,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="映画"
+                        android:text="映画\nei ga"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1109,7 +1108,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="一緒に"
+                        android:text="一緒に\nissho ni"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1144,7 +1143,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="電車"
+                        android:text="電車\nden sha"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1179,7 +1178,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="地下鉄"
+                        android:text="地下鉄\nchi ka tetsu"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1214,7 +1213,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="飛行機"
+                        android:text="飛行機\nhi kou ki"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1249,7 +1248,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="駅"
+                        android:text="駅\neki"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1284,7 +1283,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="バス乗り場"
+                        android:text="バス乗り場\nba su no ri ba"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1319,7 +1318,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="自転車"
+                        android:text="自転車\nji ten sha"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1354,7 +1353,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="車"
+                        android:text="車\nkuruma"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1389,7 +1388,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="帽子"
+                        android:text="帽子\nbo shi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1424,7 +1423,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="傘"
+                        android:text="傘\nkasa"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1459,7 +1458,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="花"
+                        android:text="花\nhana"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1494,7 +1493,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="財布"
+                        android:text="財布/nsai fu"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1529,7 +1528,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="買う"
+                        android:text="買う\nka u"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1564,7 +1563,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="お土産"
+                        android:text="お土産\no miyagi"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -1599,7 +1598,7 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="百円"
+                        android:text="百円\nhyaku en"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
