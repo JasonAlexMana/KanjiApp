@@ -7,7 +7,29 @@
     android:layout_height="match_parent"
     tools:context=".KanjiList">
 
+    <View
+        android:id="@+id/blur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toTopOf="@id/popupSetting"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:translationZ="9dp" />
+
+    <View
+        android:id="@+id/popupSetting"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/option_popup_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:translationZ="10dp" />
+
     <ScrollView
+        android:id="@+id/dictionary"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
