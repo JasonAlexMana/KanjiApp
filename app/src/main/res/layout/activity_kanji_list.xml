@@ -67,7 +67,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                         android:paddingVertical="15sp"
                         android:text="海"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -100,12 +100,12 @@
                         android:paddingVertical="15sp"
                         android:text="Sea"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                         android:paddingVertical="15sp"
                         android:text="山"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -137,11 +137,11 @@
                         android:paddingVertical="15sp"
                         android:text="Mountain"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
                         android:paddingVertical="15sp"
                         android:text="日本語"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -173,11 +173,11 @@
                         android:paddingVertical="15sp"
                         android:text="Japanese"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -197,7 +197,7 @@
                         android:paddingVertical="15sp"
                         android:text="東京"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -209,11 +209,11 @@
                         android:paddingVertical="15sp"
                         android:text="Tokyo"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -232,7 +232,7 @@
                         android:paddingVertical="15sp"
                         android:text="日本"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -244,20 +244,20 @@
                         android:paddingVertical="15sp"
                         android:text="Japan"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/student"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -268,7 +268,7 @@
                         android:paddingVertical="15sp"
                         android:text="学生"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -280,20 +280,20 @@
                         android:paddingVertical="15sp"
                         android:text="Student"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/employee"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -304,7 +304,7 @@
                         android:paddingVertical="15sp"
                         android:text="会社員"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -316,19 +316,19 @@
                         android:paddingVertical="15sp"
                         android:text="Employee"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/chinese"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -339,7 +339,7 @@
                         android:paddingVertical="15sp"
                         android:text="中国人"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -351,19 +351,19 @@
                         android:paddingVertical="15sp"
                         android:text="Chinese"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/rice"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -374,7 +374,7 @@
                         android:paddingVertical="15sp"
                         android:text="飯"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -386,19 +386,19 @@
                         android:paddingVertical="15sp"
                         android:text="Rice"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/meat"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -409,7 +409,7 @@
                         android:paddingVertical="15sp"
                         android:text="肉"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -421,19 +421,19 @@
                         android:paddingVertical="15sp"
                         android:text="Meat"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/egg"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -444,7 +444,7 @@
                         android:paddingVertical="15sp"
                         android:text="卵"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -456,20 +456,20 @@
                         android:paddingVertical="15sp"
                         android:text="Egg"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/cuisine"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -480,7 +480,7 @@
                         android:paddingVertical="15sp"
                         android:text="料理"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -492,15 +492,15 @@
                         android:paddingVertical="15sp"
                         android:text="Cuisine"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
@@ -516,7 +516,7 @@
                         android:paddingVertical="15sp"
                         android:text="家"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -528,14 +528,14 @@
                         android:paddingVertical="15sp"
                         android:text="House"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
@@ -551,7 +551,7 @@
                         android:paddingVertical="15sp"
                         android:text="部屋"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -563,14 +563,14 @@
                         android:paddingVertical="15sp"
                         android:text="Bedroom"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
@@ -586,7 +586,7 @@
                         android:paddingVertical="15sp"
                         android:text="棚"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -598,14 +598,14 @@
                         android:paddingVertical="15sp"
                         android:text="Shelf"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
@@ -621,7 +621,7 @@
                         android:paddingVertical="15sp"
                         android:text="台所"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -633,11 +633,11 @@
                         android:paddingVertical="15sp"
                         android:text="Kitchen"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -654,9 +654,79 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
+                        android:text="写真"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Picture"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="本"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Book"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/wakeup"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
                         android:text="起きる"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -668,19 +738,19 @@
                         android:paddingVertical="15sp"
                         android:text="Wake Up"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/exercise"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -691,7 +761,7 @@
                         android:paddingVertical="15sp"
                         android:text="運動"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -703,19 +773,19 @@
                         android:paddingVertical="15sp"
                         android:text="Exercise"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/gohome"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -726,7 +796,7 @@
                         android:paddingVertical="15sp"
                         android:text="帰る"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -738,19 +808,19 @@
                         android:paddingVertical="15sp"
                         android:text="To Return"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/go"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -761,7 +831,7 @@
                         android:paddingVertical="15sp"
                         android:text="行く"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -773,19 +843,19 @@
                         android:paddingVertical="15sp"
                         android:text="Go"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/fire"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -796,7 +866,7 @@
                         android:paddingVertical="15sp"
                         android:text="火"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -808,19 +878,19 @@
                         android:paddingVertical="15sp"
                         android:text="Fire"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/water"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -831,7 +901,7 @@
                         android:paddingVertical="15sp"
                         android:text="水"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -843,49 +913,15 @@
                         android:paddingVertical="15sp"
                         android:text="Water"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="4"
-                        android:paddingHorizontal="5sp"
-                        android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="4"
-                        android:paddingHorizontal="5sp"
-                        android:paddingVertical="15sp"
-                        android:text="土"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="12sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="4"
-                        android:paddingHorizontal="5sp"
-                        android:paddingVertical="15sp"
-                        android:text="Earth"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
@@ -901,7 +937,7 @@
                         android:paddingVertical="15sp"
                         android:text="野球"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -913,11 +949,11 @@
                         android:paddingVertical="15sp"
                         android:text="Baseball"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -936,7 +972,7 @@
                         android:paddingVertical="15sp"
                         android:text="柔道"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -948,11 +984,11 @@
                         android:paddingVertical="15sp"
                         android:text="Judo"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -971,7 +1007,7 @@
                         android:paddingVertical="15sp"
                         android:text="話す"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -983,11 +1019,11 @@
                         android:paddingVertical="15sp"
                         android:text="Speaking"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1006,7 +1042,7 @@
                         android:paddingVertical="15sp"
                         android:text="読む"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1018,11 +1054,11 @@
                         android:paddingVertical="15sp"
                         android:text="Reading"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1041,7 +1077,7 @@
                         android:paddingVertical="15sp"
                         android:text="音楽"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1053,11 +1089,11 @@
                         android:paddingVertical="15sp"
                         android:text="Music"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1076,7 +1112,7 @@
                         android:paddingVertical="15sp"
                         android:text="映画"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1088,46 +1124,12 @@
                         android:paddingVertical="15sp"
                         android:text="Movie"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="4"
-                        android:paddingHorizontal="5sp"
-                        android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="4"
-                        android:paddingHorizontal="5sp"
-                        android:paddingVertical="15sp"
-                        android:text="一緒に"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="12sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="4"
-                        android:paddingHorizontal="5sp"
-                        android:paddingVertical="15sp"
-                        android:text="Together"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1146,7 +1148,7 @@
                         android:paddingVertical="15sp"
                         android:text="電車"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1158,11 +1160,11 @@
                         android:paddingVertical="15sp"
                         android:text="Train"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1181,7 +1183,7 @@
                         android:paddingVertical="15sp"
                         android:text="地下鉄"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1193,11 +1195,11 @@
                         android:paddingVertical="15sp"
                         android:text="Subway"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1216,7 +1218,7 @@
                         android:paddingVertical="15sp"
                         android:text="飛行機"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1228,11 +1230,11 @@
                         android:paddingVertical="15sp"
                         android:text="Airplane"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1251,7 +1253,7 @@
                         android:paddingVertical="15sp"
                         android:text="駅"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1263,11 +1265,11 @@
                         android:paddingVertical="15sp"
                         android:text="Train Station"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1286,7 +1288,7 @@
                         android:paddingVertical="15sp"
                         android:text="バス乗り場"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1298,11 +1300,11 @@
                         android:paddingVertical="15sp"
                         android:text="Bus Shelter"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1321,7 +1323,7 @@
                         android:paddingVertical="15sp"
                         android:text="自転車"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1331,13 +1333,13 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="Bicyle"
+                        android:text="Bicycle"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1356,7 +1358,7 @@
                         android:paddingVertical="15sp"
                         android:text="車"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1368,11 +1370,11 @@
                         android:paddingVertical="15sp"
                         android:text="Car"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1389,9 +1391,44 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
+                        android:text="運転手"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Driver"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/hat"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
                         android:text="帽子"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1403,19 +1440,19 @@
                         android:paddingVertical="15sp"
                         android:text="Hat"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/umbrella"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1426,7 +1463,7 @@
                         android:paddingVertical="15sp"
                         android:text="傘"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1438,19 +1475,19 @@
                         android:paddingVertical="15sp"
                         android:text="Umbrella"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/flower"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1461,7 +1498,7 @@
                         android:paddingVertical="15sp"
                         android:text="花"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1473,19 +1510,19 @@
                         android:paddingVertical="15sp"
                         android:text="Flower"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/wallet"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1496,7 +1533,7 @@
                         android:paddingVertical="15sp"
                         android:text="財布"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1508,19 +1545,19 @@
                         android:paddingVertical="15sp"
                         android:text="Wallet"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/buy"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1531,7 +1568,7 @@
                         android:paddingVertical="15sp"
                         android:text="買う"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1543,19 +1580,19 @@
                         android:paddingVertical="15sp"
                         android:text="Buy"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/souvenir"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1566,7 +1603,7 @@
                         android:paddingVertical="15sp"
                         android:text="お土産"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1578,11 +1615,81 @@
                         android:paddingVertical="15sp"
                         android:text="Souvenir"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
 
-                <TableRow android:background="@color/white">
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/yen"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="百円"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="100 Yen"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/postcard"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="絵葉書"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Postcard"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -1599,9 +1706,9 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="百円"
+                        android:text="面白い"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
@@ -1611,9 +1718,254 @@
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="15sp"
-                        android:text="100 Yen"
+                        android:text="Interesting"
                         android:textAlignment="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="遊び"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Play"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="掃除"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Cleaning"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="来る"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Come"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="会う"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Meeting"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="休み"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Rest"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="歌舞伎"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Drama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/japan"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="服"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Clothes"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
             </TableLayout>
