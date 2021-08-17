@@ -41,22 +41,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageView
         android:id="@+id/btnSettings"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="84dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/button_border"
-        android:enabled="true"
-        android:paddingVertical="18dp"
-        android:text="Settings"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/setting"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnKanji" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="0dp"
