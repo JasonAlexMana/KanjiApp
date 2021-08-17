@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnGoals"
+        android:id="@+id/btnSettings"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="84dp"
@@ -57,23 +57,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnKanji" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSettings"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="84dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/button_border"
-        android:enabled="true"
-        android:paddingVertical="18dp"
-        android:text="Credits"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGoals" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="0dp"
