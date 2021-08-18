@@ -4,13 +4,13 @@ import android.app.Application;
 
 public class DataHolder extends Application {
 
-    private int langSelection;
+    private static boolean isVolumeOpen = false;
 
-    public void setLangSelection (int i) {
-        langSelection = i;
+    public static void setIsVolumeOpen (boolean i) {
+        isVolumeOpen = i;
     }
 
-    public int getLangSelection () {
-        return langSelection;
+    public static boolean getIsVolumeOpen () {
+        return isVolumeOpen;
     }
 }

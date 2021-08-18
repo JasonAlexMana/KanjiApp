@@ -26,6 +26,7 @@
         />
 
     <TextView
+        android:id="@+id/volumeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Volume"
@@ -38,6 +39,7 @@
         android:textColor="@color/white"/>
 
     <ImageView
+        android:id="@+id/volumeButton"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:layout_constraintTop_toTopOf="@id/volumeGroup"
@@ -46,7 +48,82 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/arrowdown"/>
 
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:translationZ="1000dp"
+        app:layout_constraintTop_toBottomOf="@id/volumeGroup"/>
 
+    <View
+        android:id="@+id/profileGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/lightdarkpink"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/volumeGroup"
+        />
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        app:layout_constraintTop_toTopOf="@id/profileGroup"
+        app:layout_constraintLeft_toLeftOf="@id/profileGroup"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/profileButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/profileGroup"
+        app:layout_constraintRight_toRightOf="@id/profileGroup"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/arrowdown"/>
+
+    <View
+        android:id="@+id/creditsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/lightdarkpink"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/profileGroup"
+        />
+
+    <TextView
+        android:id="@+id/creditsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        app:layout_constraintTop_toTopOf="@id/creditsGroup"
+        app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/creditsButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/creditsGroup"
+        app:layout_constraintRight_toRightOf="@id/creditsGroup"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/arrowdown"/>
 
     <TextView
         android:id="@+id/textView"
