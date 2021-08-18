@@ -11,5 +11,8 @@
     <color name="yellow">#e3fc03</color>
     <color name="orange">#FECD04</color>#FE016B;
     <color name="pink">#FF5F98</color>
+    <color name="lightpink">#FCDDEC</color>
+    <color name="grey">#9A9A9A</color>
+    <color name="yellow2">#FFC700</color>
 
 </resources>

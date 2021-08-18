@@ -17,6 +17,59 @@
         app:layout_constraintRight_toRightOf="parent"
         android:translationZ="9dp" />
 
+    <TextView
+        android:id="@+id/btnDefault"
+        android:layout_width="140dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/lightpink"
+        android:enabled="true"
+        android:paddingVertical="18dp"
+        android:text="日本語"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="11dp"/>
+
+    <TextView
+        android:id="@+id/Settings"
+        android:layout_width="113dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="475dp"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="11dp"/>
+
+    <TextView
+        android:id="@+id/btnJapanese"
+        android:layout_width="140dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/lightpink"
+        android:enabled="true"
+        android:paddingVertical="18dp"
+        android:text="に ほん ご\n日本語"
+        android:textColor="@color/grey"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="11dp"/>
+
     <View
         android:id="@+id/popupSetting"
         android:layout_width="match_parent"
