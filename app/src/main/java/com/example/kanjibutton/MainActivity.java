@@ -3,6 +3,7 @@ package com.example.kanjibutton;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageView btnKanji = findViewById(R.id.btnKanji);
+        Button btnKanji = findViewById(R.id.btnKanji);
+        MediaPlayer music = MediaPlayer.create(MainActivity.this, R.raw.bgm);
+        music.setLooping(true);
+        music.start();
         btnKanji.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
