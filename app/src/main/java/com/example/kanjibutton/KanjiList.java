@@ -21,6 +21,7 @@ public class KanjiList extends AppCompatActivity {
         TextView Settings = findViewById(R.id.Settings);
         TextView btnRomanized = findViewById(R.id.btnRomanized);
         TextView btnJapanese = findViewById(R.id.btnJapanese);
+        ImageView btnHome = findViewById(R.id.btnHome);
         blurScreen.setVisibility(View.GONE);
         settingBar.setVisibility(View.GONE);
         Settings.setVisibility(View.GONE);
@@ -55,6 +56,13 @@ public class KanjiList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent newIntent = new Intent(KanjiList.this, KanjiListJapanese.class);
+                startActivity(newIntent);
+            }
+        });
+        btnHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent newIntent = new Intent(KanjiList.this, MainActivity.class);
                 startActivity(newIntent);
             }
         });
