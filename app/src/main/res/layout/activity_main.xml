@@ -19,6 +19,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></TextView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:gravity="center"
+        android:text="こんにちは！"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toTopOf="@+id/NavBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 
     <ImageView
         android:id="@+id/btnHome"
@@ -70,6 +120,84 @@
         app:layout_constraintVertical_bias="0.183">
 
     </ImageView>
+
+    <View
+        android:id="@+id/KanjiLearned"
+        android:layout_width="128dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="355dp"
+        android:background="@color/lightgrey"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/LevelPassed"
+        android:layout_width="128dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="355dp"
+        android:layout_marginLeft="192dp"
+        android:background="@color/lightgrey"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/WinStreak"
+        android:layout_width="128dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="217dp"
+        android:background="@color/lightgrey"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/Assesment"
+        android:layout_width="128dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="217dp"
+        android:layout_marginLeft="192dp"
+        android:background="@color/lightgrey"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="532dp"
+        android:gravity="center"
+        android:text="Note to self"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <View
+        android:id="@+id/Note"
+        android:layout_width="320dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/lightgrey"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <View
         android:id="@+id/NavBar"
