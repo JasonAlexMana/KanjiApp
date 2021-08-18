@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btnKanji = findViewById(R.id.btnKanji);
+        ImageView btnKanji = findViewById(R.id.btnKanji);
         btnKanji.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

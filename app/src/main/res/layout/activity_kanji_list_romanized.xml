@@ -80,6 +80,67 @@
         app:layout_constraintRight_toRightOf="parent"
         android:translationZ="10dp" />
 
+    <ImageView
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="348dp"
+        android:layout_marginRight="348dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/houselogo"
+        android:translationZ="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/NavBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/btnKanji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/dictionarylogo"
+        android:translationZ="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/NavBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginRight="184dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/playbutton"
+        android:translationZ="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/NavBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183">
+
+    </ImageView>
+
+    <View
+        android:id="@+id/NavBar"
+        android:layout_width="415dp"
+        android:layout_height="48dp"
+        android:background="@color/yellow2"
+        android:translationZ="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -2038,6 +2099,41 @@
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
+                </TableRow>
+                <TableRow android:background="@color/pink">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="0sp"
+                        android:src="@drawable/clothes"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="服"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:paddingHorizontal="5sp"
+                        android:paddingVertical="15sp"
+                        android:text="Clothes"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
                 </TableRow>
             </TableLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
