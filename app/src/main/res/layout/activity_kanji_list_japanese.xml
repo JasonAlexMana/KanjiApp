@@ -6,6 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".KanjiListJapanese">
 
+    <View
+        android:id="@+id/blur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toTopOf="@id/popupSetting"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:translationZ="9dp" />
+
+    <TextView
+        android:id="@+id/btnRomanized"
+        android:layout_width="140dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/lightpink"
+        android:enabled="true"
+        android:paddingVertical="18dp"
+        android:text="ni hon go\n日本語"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="11dp"/>
+
+    <TextView
+        android:id="@+id/btnDefault"
+        android:layout_width="140dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/lightpink"
+        android:enabled="true"
+        android:paddingVertical="18dp"
+        android:text="日本語"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="11dp"/>
+
+    <TextView
+        android:id="@+id/Settings"
+        android:layout_width="113dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="475dp"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="11dp"/>
+
+    <View
+        android:id="@+id/popupSetting"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/option_popup_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:translationZ="10dp" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -498,13 +572,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/house"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -533,13 +607,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/bedroom"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -568,13 +642,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/shelf"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -603,13 +677,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/kitchen"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -638,13 +712,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/picture"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -673,13 +747,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/book"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -919,13 +993,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/baseball"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -954,13 +1028,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/judo"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -989,13 +1063,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/speaking"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1024,13 +1098,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/reading"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1059,13 +1133,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/music"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1094,13 +1168,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/movie"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1129,13 +1203,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/train"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1164,13 +1238,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/subway"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1199,13 +1273,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/airplane"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1234,13 +1308,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/trainstation"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1269,13 +1343,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/busshelter"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1304,13 +1378,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/bicycle"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1339,13 +1413,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/car"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1374,13 +1448,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/driver"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1689,13 +1763,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/interesting"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1724,13 +1798,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/play"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1759,13 +1833,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/cleaning"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1794,13 +1868,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/come"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1829,13 +1903,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/meeting"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1864,13 +1938,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/rest"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1899,13 +1973,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/drama"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -1934,13 +2008,13 @@
 
                 <TableRow android:background="@color/pink">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="4"
                         android:paddingHorizontal="5sp"
                         android:paddingVertical="0sp"
-                        android:src="@drawable/japan"
+                        android:src="@drawable/clothes"
                         />
                     <TextView
                         android:layout_width="wrap_content"
