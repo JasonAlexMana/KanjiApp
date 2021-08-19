@@ -160,7 +160,6 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/arrowdown"/>
 
-
     <TextView
         android:id="@+id/textSettings"
         android:layout_width="wrap_content"
