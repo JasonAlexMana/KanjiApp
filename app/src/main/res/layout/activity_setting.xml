@@ -49,17 +49,52 @@
         android:src="@drawable/arrowdown"/>
 
     <TextView
-        android:id="@+id/test"
+        android:id="@+id/backgroundbgm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TEST"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="35dp"
+        android:text="Background Music"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
         android:textStyle="bold"
         android:textSize="20dp"
         android:textColor="@color/white"
         android:translationZ="1000dp"
+        app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
         app:layout_constraintTop_toBottomOf="@id/volumeGroup"/>
+
+    <SeekBar
+        android:id="@+id/seekBarBGM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/profileButton"
+        app:layout_constraintStart_toStartOf="@+id/backgroundbgm"
+        tools:layout_editor_absoluteY="173dp"
+        app:layout_constraintTop_toBottomOf="@id/backgroundbgm"/>
+
+    <TextView
+        android:id="@+id/backgroundsfx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Effect"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:translationZ="1000dp"
+        app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
+        app:layout_constraintTop_toBottomOf="@id/seekBarBGM"/>
+
+    <SeekBar
+        android:id="@+id/seekBarSFX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/profileButton"
+        app:layout_constraintStart_toStartOf="@+id/backgroundsfx"
+        tools:layout_editor_absoluteY="173dp"
+        app:layout_constraintTop_toBottomOf="@id/backgroundsfx"/>
 
     <View
         android:id="@+id/profileGroup"
@@ -67,7 +102,7 @@
         android:layout_height="40dp"
         android:background="@color/lightdarkpink"
         android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/volumeGroup"
+        app:layout_constraintTop_toBottomOf="@id/seekBarSFX"
         />
 
     <TextView
@@ -126,7 +161,20 @@
         android:src="@drawable/arrowdown"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/thumbnailText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thumbnail Video"
+        app:layout_constraintTop_toBottomOf="@id/creditsGroup"
+        app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Settings"

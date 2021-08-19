@@ -17,10 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btnKanji = findViewById(R.id.btnKanji);
-        MediaPlayer music = MediaPlayer.create(MainActivity.this, R.raw.bgm);
-        music.setLooping(true);
-        music.start();
+        ImageView btnKanji = findViewById(R.id.btnKanji);
+        DataHolder.setBGMMediaPlayer(MainActivity.this,R.raw.bgm);
         btnKanji.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
