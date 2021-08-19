@@ -53,8 +53,7 @@ public class Setting extends AppCompatActivity {
                 Intent newIntent = new Intent(Setting.this, MainActivity.class);
                 startActivity(newIntent);
             }
-            }
-            );
+        });
         View volumeGrp = findViewById(R.id.volumeGroup);
         View profileGrp = findViewById(R.id.profileGroup);
         View creditGrp = findViewById(R.id.creditsGroup);
