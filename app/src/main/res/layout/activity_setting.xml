@@ -28,6 +28,7 @@
         android:src="@drawable/vector"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
     <ScrollView
         android:id="@+id/sl1"
         android:layout_width="wrap_content"
@@ -37,8 +38,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textSettings"
         android:background="@drawable/settings_rounded_pink_rect">
-
-
+        
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cl1"
             android:layout_width="match_parent"

@@ -114,6 +114,16 @@
     </ImageView>
 
     <View
+        android:id="@+id/NavBar"
+        android:layout_width="415dp"
+        android:layout_height="48dp"
+        android:background="@color/yellow2"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
         android:id="@+id/KanjiLearned"
         android:layout_width="128dp"
         android:layout_height="112dp"
@@ -255,15 +265,6 @@
         app:layout_constraintTop_toTopOf="@id/Note"
         app:layout_constraintLeft_toLeftOf="@id/Note"/>
 
-    <View
-        android:id="@+id/NavBar"
-        android:layout_width="415dp"
-        android:layout_height="48dp"
-        android:background="@color/yellow2"
-        android:translationZ="11dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
 
     <ImageView
         android:id="@+id/btnSettings"

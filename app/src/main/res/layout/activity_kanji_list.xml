@@ -85,15 +85,12 @@
         android:id="@+id/btnHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="705dp"
-        android:layout_marginEnd="348dp"
-        android:layout_marginRight="348dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
         android:src="@drawable/houselogo"
         android:translationZ="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/NavBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NavBar"
+        app:layout_constraintLeft_toLeftOf="@id/NavBar"
         app:layout_constraintVertical_bias="0.183">
 
     </ImageView>
@@ -102,15 +99,12 @@
         android:id="@+id/btnKanji"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="705dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
         android:src="@drawable/dictionarylogo"
         android:translationZ="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/NavBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@id/NavBar"
+        app:layout_constraintTop_toTopOf="@id/NavBar"
         app:layout_constraintVertical_bias="0.187">
 
     </ImageView>
@@ -119,15 +113,12 @@
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="705dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginRight="184dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/playbutton"
         android:translationZ="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/NavBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/NavBar"
+        app:layout_constraintLeft_toRightOf="@id/btnHome"
+        app:layout_constraintRight_toLeftOf="@id/btnKanji"
         app:layout_constraintVertical_bias="0.183">
 
     </ImageView>
