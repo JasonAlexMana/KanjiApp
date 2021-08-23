@@ -9,7 +9,10 @@ import android.content.Intent;
 import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -37,6 +40,10 @@ public class Setting extends AppCompatActivity {
         ImageView video2 = findViewById(R.id.video2);
         ImageView video3 = findViewById(R.id.video3);
         ImageView video4 = findViewById(R.id.video4);
+        EditText usernameText = findViewById(R.id.editUsername);
+        EditText noteText = findViewById(R.id.editNoteToSelf);
+        loadProfileEdit();
+        bindProfileSetting();
         profileSetting.setVisibility(View.GONE);
         changeAvatar.setVisibility(View.GONE);
         username.setVisibility(View.GONE);
@@ -53,6 +60,8 @@ public class Setting extends AppCompatActivity {
         sfxText.setVisibility(View.GONE);
         seekBarBGM.setVisibility(View.GONE);
         seekBarSFX.setVisibility(View.GONE);
+        usernameText.setVisibility(View.GONE);
+        noteText.setVisibility(View.GONE);
         seekBarBGM.setMax(100);
         seekBarBGM.setProgress(50);
 
@@ -118,6 +127,8 @@ public class Setting extends AppCompatActivity {
                     changeAvatar.setVisibility(View.VISIBLE);
                     username.setVisibility(View.VISIBLE);
                     noteToself.setVisibility(View.VISIBLE);
+                    noteText.setVisibility(View.VISIBLE);
+                    usernameText.setVisibility(View.VISIBLE);
                     constraintSet.clone(constraintLayout);
                     constraintSet.connect(R.id.profileGroup, ConstraintSet.TOP, R.id.seekBarSFX, ConstraintSet.BOTTOM, 5);
                 }
@@ -126,6 +137,8 @@ public class Setting extends AppCompatActivity {
                     changeAvatar.setVisibility(View.GONE);
                     username.setVisibility(View.GONE);
                     noteToself.setVisibility(View.GONE);
+                    noteText.setVisibility(View.GONE);
+                    usernameText.setVisibility(View.GONE);
                     constraintSet.clone(constraintLayout);
                     constraintSet.connect(R.id.profileGroup, ConstraintSet.TOP, R.id.profileGroup, ConstraintSet.BOTTOM, 5);
                 }
@@ -203,5 +216,46 @@ public class Setting extends AppCompatActivity {
         SeekBar seekBarBGM = findViewById(R.id.seekBarBGM);
         DataHolder.setBGMVolume(seekBarBGM.getProgress(),seekBarBGM.getProgress());
     }
+    private void loadProfileEdit() {
+        EditText usernameText = findViewById(R.id.editUsername);
+        EditText noteText = findViewById(R.id.editNoteToSelf);
+        usernameText.setText(DataHolder.getName());
+        noteText.setText(DataHolder.getNoteToSelf());
+    }
+    private void bindProfileSetting() {
+        EditText usernameText = findViewById(R.id.editUsername);
+        EditText noteText = findViewById(R.id.editNoteToSelf);
+        usernameText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                DataHolder.setName(s.toString());
+            }
+        });
+        noteText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                DataHolder.setNoteToSelf(s.toString());
+            }
+        });
+    }
 }
