@@ -136,17 +136,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="352dp"
         android:gravity="center"
         android:text="Kanji Learned"
         android:textColor="@color/pink"
         android:textSize="18sp"
         android:textStyle="bold"
         android:translationZ="12dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintLeft_toLeftOf="@id/KanjiLearned"
+        app:layout_constraintRight_toRightOf="@id/KanjiLearned"
+        app:layout_constraintBottom_toBottomOf="@id/KanjiLearned"
+        ></TextView>
 
     <View
         android:id="@+id/LevelPassed"
@@ -164,17 +163,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="352dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginRight="68dp"
         android:gravity="center"
         android:text="Level Passed"
         android:textColor="@color/pink"
         android:textSize="18sp"
         android:textStyle="bold"
         android:translationZ="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintLeft_toLeftOf="@id/LevelPassed"
+        app:layout_constraintRight_toRightOf="@id/LevelPassed"
+        app:layout_constraintBottom_toBottomOf="@id/LevelPassed"></TextView>
 
     <View
         android:id="@+id/WinStreak"
@@ -191,17 +188,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="488dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginRight="52dp"
         android:gravity="center"
         android:text="Win Streaks"
         android:textColor="@color/pink"
         android:textSize="18sp"
         android:textStyle="bold"
         android:translationZ="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintLeft_toLeftOf="@id/WinStreak"
+        app:layout_constraintRight_toRightOf="@id/WinStreak"
+        app:layout_constraintBottom_toBottomOf="@id/WinStreak"></TextView>
 
     <View
         android:id="@+id/Assesment"
@@ -220,32 +215,27 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="488dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
         android:gravity="center"
         android:text="Assesment"
         android:textColor="@color/pink"
         android:textSize="18sp"
         android:textStyle="bold"
         android:translationZ="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintLeft_toLeftOf="@id/Assesment"
+        app:layout_constraintRight_toRightOf="@id/Assesment"
+        app:layout_constraintBottom_toBottomOf="@id/Assesment"></TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginTop="532dp"
         android:gravity="center"
         android:text="Note to self"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationZ="11dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintBottom_toTopOf="@id/Note"
+        app:layout_constraintLeft_toLeftOf="@id/Note"></TextView>
 
     <View
         android:id="@+id/Note"
