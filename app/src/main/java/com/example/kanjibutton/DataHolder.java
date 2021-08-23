@@ -9,6 +9,8 @@ import java.io.File;
 public class DataHolder extends Application {
 
     private static boolean isVolumeOpen = false;
+    private static boolean isProfileOpen = false;
+    private static boolean isCreditOpen = false;
     private static boolean musicOn = false;
     private static MediaPlayer music;
 
@@ -32,4 +34,23 @@ public class DataHolder extends Application {
     public static boolean getIsVolumeOpen () {
         return isVolumeOpen;
     }
+
+    public static void setIsProfileOpen (boolean i) {
+        isProfileOpen = i;
+    }
+
+    public static boolean getIsProfileOpen () {
+        return isProfileOpen;
+    }
+
+    public static void setIsCreditOpen (boolean i) {
+        isCreditOpen = i;
+    }
+
+    public static boolean getIsCreditOpen () {
+        return isCreditOpen;
+    }
+
+
+
 }

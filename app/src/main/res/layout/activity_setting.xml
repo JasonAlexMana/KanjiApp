@@ -6,257 +6,330 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/constraintLayout"
     tools:context=".Setting">
-
-    <ScrollView
-        android:id="@+id/setting"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
+    <TextView
+        android:id="@+id/textSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@color/pink"
+        android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/textSettings"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Settings"
-            android:textColor="@color/pink"
-            android:textSize="32sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
-        <ImageView
-            android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/vector"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
-    <View
-        android:id="@+id/settingPanel"
-        android:layout_width="match_parent"
-        android:layout_height="650dp"
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/vector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ScrollView
+        android:id="@+id/sl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textSettings"
-        android:background="@drawable/settings_rounded_pink_rect"/>
+        android:background="@drawable/settings_rounded_pink_rect">
 
-    <View
-        android:id="@+id/volumeGroup"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@color/lightdarkpink"
-        android:layout_marginTop="30dp"
-        app:layout_constraintTop_toTopOf="@id/settingPanel" />
 
-    <TextView
-        android:id="@+id/volumeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Volume"
-        app:layout_constraintTop_toTopOf="@id/volumeGroup"
-        app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="35dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="55dp">
 
-    <ImageView
-        android:id="@+id/volumeButton"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:layout_constraintTop_toTopOf="@id/volumeGroup"
-        app:layout_constraintRight_toRightOf="@id/volumeGroup"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/arrowdown"/>
+            <View
+                android:id="@+id/volumeGroup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/lightdarkpink"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="30dp" />
 
-    <TextView
-        android:id="@+id/backgroundbgm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Background Music"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="25dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:translationZ="1000dp"
-        app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
-        app:layout_constraintTop_toBottomOf="@id/volumeGroup"/>
+            <TextView
+                android:id="@+id/volumeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volume"
+                app:layout_constraintTop_toTopOf="@id/volumeGroup"
+                app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
 
-    <SeekBar
-        android:id="@+id/seekBarBGM"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/profileButton"
-        app:layout_constraintStart_toStartOf="@+id/backgroundbgm"
-        tools:layout_editor_absoluteY="173dp"
-        app:layout_constraintTop_toBottomOf="@id/backgroundbgm"/>
+            <ImageView
+                android:id="@+id/volumeButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:layout_constraintTop_toTopOf="@id/volumeGroup"
+                app:layout_constraintRight_toRightOf="@id/volumeGroup"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/arrowdown"/>
 
-    <TextView
-        android:id="@+id/backgroundsfx"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sound Effect"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="25dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:translationZ="1000dp"
-        app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
-        app:layout_constraintTop_toBottomOf="@id/seekBarBGM"/>
+            <TextView
+                android:id="@+id/backgroundbgm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Background Music"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
+                app:layout_constraintTop_toBottomOf="@id/volumeGroup"/>
 
-    <SeekBar
-        android:id="@+id/seekBarSFX"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/profileButton"
-        app:layout_constraintStart_toStartOf="@+id/backgroundsfx"
-        tools:layout_editor_absoluteY="173dp"
-        app:layout_constraintTop_toBottomOf="@id/backgroundsfx"/>
+            <SeekBar
+                android:id="@+id/seekBarBGM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/profileButton"
+                app:layout_constraintStart_toStartOf="@+id/backgroundbgm"
+                tools:layout_editor_absoluteY="173dp"
+                app:layout_constraintTop_toBottomOf="@id/backgroundbgm"/>
 
-    <View
-        android:id="@+id/profileGroup"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@color/lightdarkpink"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/seekBarSFX"/>
+            <TextView
+                android:id="@+id/backgroundsfx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound Effect"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/volumeGroup"
+                app:layout_constraintTop_toBottomOf="@id/seekBarBGM"/>
 
-    <TextView
-        android:id="@+id/profileText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Profile"
-        app:layout_constraintTop_toTopOf="@id/profileGroup"
-        app:layout_constraintLeft_toLeftOf="@id/profileGroup"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="35dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"/>
+            <SeekBar
+                android:id="@+id/seekBarSFX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/profileButton"
+                app:layout_constraintStart_toStartOf="@+id/backgroundsfx"
+                tools:layout_editor_absoluteY="173dp"
+                app:layout_constraintTop_toBottomOf="@id/backgroundsfx"/>
 
-    <ImageView
-        android:id="@+id/profileButton"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:layout_constraintTop_toTopOf="@id/profileGroup"
-        app:layout_constraintRight_toRightOf="@id/profileGroup"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/arrowdown"/>
+            <View
+                android:id="@+id/profileGroup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/lightdarkpink"
+                android:layout_marginTop="5dp"
+                app:layout_constraintTop_toBottomOf="@id/seekBarSFX"/>
 
-    <View
-        android:id="@+id/creditsGroup"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@color/lightdarkpink"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/profileGroup"/>
+            <TextView
+                android:id="@+id/profileText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                app:layout_constraintTop_toTopOf="@id/profileGroup"
+                app:layout_constraintLeft_toLeftOf="@id/profileGroup"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
 
-    <TextView
-        android:id="@+id/creditsText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Credits"
-        app:layout_constraintTop_toTopOf="@id/creditsGroup"
-        app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="35dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/profileButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:layout_constraintTop_toTopOf="@id/profileGroup"
+                app:layout_constraintRight_toRightOf="@id/profileGroup"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/arrowdown"/>
 
-    <ImageView
-        android:id="@+id/creditsButton"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:layout_constraintTop_toTopOf="@id/creditsGroup"
-        app:layout_constraintRight_toRightOf="@id/creditsGroup"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/arrowdown"/>
+            <ImageView
+                android:id="@+id/profileSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/profileGroup"
+                app:layout_constraintRight_toRightOf="@id/profileGroup"
+                android:src="@drawable/profile"/>
 
-    <TextView
-        android:id="@+id/thumbnail1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pengenalan Huruf Jepang"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="25dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:translationZ="1000dp"
-        app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
-        app:layout_constraintTop_toBottomOf="@id/creditsGroup"/>
+            <TextView
+                android:id="@+id/changeAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Avatar"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/profileSetting"
+                app:layout_constraintTop_toBottomOf="@id/profileSetting"
+                app:layout_constraintRight_toRightOf="@id/profileSetting"/>
 
-    <ImageView
-        android:id="@+id/video1"
-        android:layout_width="296dp"
-        android:layout_height="160dp"
-        app:layout_constraintEnd_toEndOf="@id/profileGroup"
-        app:layout_constraintTop_toBottomOf="@id/thumbnail1"
-        android:layout_marginRight="90dp"
-        android:src="@drawable/thumbnail1"/>
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/changeAvatar"/>
 
-    <TextView
-        android:id="@+id/thumbnail2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kanji Disekitarku(Rumah)"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="25dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:translationZ="1000dp"
-        app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
-        app:layout_constraintTop_toBottomOf="@id/video1"/>
+            <TextView
+                android:id="@+id/noteToself"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note to Self"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/username"/>
 
-    <ImageView
-        android:id="@+id/video2"
-        android:layout_width="296dp"
-        android:layout_height="160dp"
-        app:layout_constraintEnd_toEndOf="@id/profileGroup"
-        app:layout_constraintTop_toBottomOf="@id/thumbnail2"
-        android:layout_marginRight="90dp"
-        android:src="@drawable/thumbnail2"/>
+            <View
+                android:id="@+id/creditsGroup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/lightdarkpink"
+                android:layout_marginTop="5dp"
+                app:layout_constraintTop_toBottomOf="@id/noteToself"/>
 
-    <TextView
-        android:id="@+id/thumbnail3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kanji Disekitarku(Transportasi)"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="25dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:translationZ="1000dp"
-        app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
-        app:layout_constraintTop_toBottomOf="@id/video2"/>
+            <TextView
+                android:id="@+id/creditsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credits"
+                app:layout_constraintTop_toTopOf="@id/creditsGroup"
+                app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
 
-    <ImageView
-        android:id="@+id/video3"
-        android:layout_width="296dp"
-        android:layout_height="160dp"
-        app:layout_constraintEnd_toEndOf="@id/profileGroup"
-        app:layout_constraintTop_toBottomOf="@id/thumbnail2"
-        android:layout_marginRight="90dp"
-        android:src="@drawable/thumbnail3"/>
+            <ImageView
+                android:id="@+id/creditsButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:layout_constraintTop_toTopOf="@id/creditsGroup"
+                app:layout_constraintRight_toRightOf="@id/creditsGroup"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/arrowdown"/>
+
+            <TextView
+                android:id="@+id/thumbnail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengenalan Huruf Jepang"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+                app:layout_constraintTop_toBottomOf="@id/creditsGroup"/>
+
+            <ImageView
+                android:id="@+id/video1"
+                android:layout_width="296dp"
+                android:layout_height="160dp"
+                app:layout_constraintEnd_toEndOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/thumbnail1"
+                android:layout_marginRight="90dp"
+                android:src="@drawable/thumbnail1"/>
+
+            <TextView
+                android:id="@+id/thumbnail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kanji Disekitarku(Rumah)"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+                app:layout_constraintTop_toBottomOf="@id/video1"/>
+
+            <ImageView
+                android:id="@+id/video2"
+                android:layout_width="296dp"
+                android:layout_height="160dp"
+                app:layout_constraintEnd_toEndOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/thumbnail2"
+                android:layout_marginRight="90dp"
+                android:src="@drawable/thumbnail2"/>
+
+            <TextView
+                android:id="@+id/thumbnail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kanji Disekitarku(Transportasi)"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+                app:layout_constraintTop_toBottomOf="@id/video2"/>
+
+            <ImageView
+                android:id="@+id/video3"
+                android:layout_width="296dp"
+                android:layout_height="160dp"
+                app:layout_constraintEnd_toEndOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/thumbnail3"
+                android:layout_marginRight="90dp"
+                android:src="@drawable/thumbnail3"/>
+
+            <TextView
+                android:id="@+id/thumbnail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fukushuu Review dan Latihan"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:translationZ="1000dp"
+                app:layout_constraintLeft_toLeftOf="@id/creditsGroup"
+                app:layout_constraintTop_toBottomOf="@id/video3"/>
+
+            <ImageView
+                android:id="@+id/video4"
+                android:layout_width="296dp"
+                android:layout_height="160dp"
+                app:layout_constraintEnd_toEndOf="@id/profileGroup"
+                app:layout_constraintTop_toBottomOf="@id/thumbnail4"
+                android:layout_marginRight="90dp"
+                android:src="@drawable/thumbnail4"/>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
