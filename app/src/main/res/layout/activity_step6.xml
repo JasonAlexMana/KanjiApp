@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_back"/>
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="256dp"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="12dp"
+                android:background="@drawable/level_shape" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level 6"
+                    android:layout_marginEnd="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    />
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="4dp"-->
+                <!--                    android:background="@drawable/item_shape_black"/>-->
+
+                <!-- Linear progress indicator -->
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/progress"
+                    tools:progress="50"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="24%"
+                    android:id="@+id/progressPercentage"
+                    android:layout_marginStart="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:scaleType="fitXY"
+                android:id="@+id/settings"
+                android:src="@drawable/ic_setting"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout android:id="@+id/layoutBaseball"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_shape"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/item_shape_white"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/japan2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="や きゅう"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="野球"/>
+
+                    <TextView
+                        android:id="@+id/roman2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="ya kyu"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/layoutJudo"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_shape"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/item_shape_white"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/japan4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="じゅう どう"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="柔道"/>
+
+                    <TextView
+                        android:id="@+id/roman4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="ju do"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/layoutSpeaking"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_shape"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/item_shape_white"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/japan3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="はな"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="話す"/>
+
+                    <TextView
+                        android:id="@+id/roman3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="hana su"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/layoutReading"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_shape"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/item_shape_white"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/japan6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="よ"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="読む"/>
+
+                    <TextView
+                        android:id="@+id/roman6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="yo mu"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutMusic"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_shape"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/item_shape_white"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/japan5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="おん がく"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="音楽"/>
+
+                    <TextView
+                        android:id="@+id/roman5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="on gaku"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/layoutMovie"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_shape"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/item_shape_white"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/japan1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="えい が"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="映画"/>
+
+                    <TextView
+                        android:id="@+id/roman1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:text="ei ga"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <include layout="@layout/bottomsheet_step6" />
+
+<!--    </LinearLayout>-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/bottom_sheet"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

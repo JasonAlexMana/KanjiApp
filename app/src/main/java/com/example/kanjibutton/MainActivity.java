@@ -38,7 +38,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newIntent);
             }
         });
-    }
+
+    ImageView btnPlay = findViewById(R.id.btnPlay);
+        btnPlay.setOnClickListener(new View.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            Intent newIntent = new Intent(MainActivity.this, FirstPage.class);
+            startActivity(newIntent);
+        }
+    });
+}
     private void loadProfile() {
         TextView nameText = findViewById(R.id.name);
         TextView noteToSelfText = findViewById(R.id.noteToSelfText);

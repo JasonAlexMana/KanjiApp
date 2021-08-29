@@ -66,6 +66,14 @@ public class KanjiListJapanese extends AppCompatActivity {
                 startActivity(newIntent);
             }
         });
+        ImageView btnPlay = findViewById(R.id.btnPlay);
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent newIntent = new Intent(KanjiListJapanese.this, FirstPage.class);
+                startActivity(newIntent);
+            }
+        });
         blurScreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

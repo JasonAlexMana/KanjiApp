@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="How to Play"
+        android:textColor="@color/colorSecondary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="340dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/fifth" />-->
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/img"
+        android:background="@color/lowPink"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Scroll up to reveal more pictures"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <include layout="@layout/bottomsheet_step8" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="12dp"
+        android:text="Let's Play!"
+        android:textColor="@color/colorYellow"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
