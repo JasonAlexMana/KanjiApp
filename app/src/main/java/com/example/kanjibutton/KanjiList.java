@@ -3,6 +3,7 @@ package com.example.kanjibutton;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -63,6 +64,14 @@ public class KanjiList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent newIntent = new Intent(KanjiList.this, MainActivity.class);
+                startActivity(newIntent);
+            }
+        });
+        ImageView btnPlay = findViewById(R.id.btnPlay);
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent newIntent = new Intent(KanjiList.this, FirstPage.class);
                 startActivity(newIntent);
             }
         });

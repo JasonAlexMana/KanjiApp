@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:top="16px" android:bottom="16px" android:left="16px" android:right="16px">
+        <shape android:shape="rectangle">
+            <corners android:radius="64dp" />
+            <solid android:color="@color/colorSecondary" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_rounded_dot" />
+</layer-list>

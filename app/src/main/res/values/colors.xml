@@ -16,5 +16,13 @@
     <color name="yellow2">#FFC700</color>
     <color name="lightgrey">#FCFBF6</color>
     <color name="lightdarkpink">#FF86B7</color>
+    <color name="translucent_black">#80000000</color>
+    <color name="colorPrimary">#ff5f98</color>
+    <color name="colorSecondary">#ff5f98</color>
+    <color name="colorBottom">#ff86b7</color>
+    <color name="lowPink">#FCDDEC</color>
+    <color name="colorYellow">#FFFFC700</color>
+    <color name="colorGrey">#FFC6C6C6</color>
+    <color name="purple">#ffc497ff</color>
 
 </resources>

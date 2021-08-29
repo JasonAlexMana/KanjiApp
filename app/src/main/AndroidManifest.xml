@@ -11,8 +11,9 @@
         android:theme="@style/Theme.KanjiButton">
         <activity android:name=".SplashScreen">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".KanjiListJapanese" />
@@ -26,6 +27,60 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Step9"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step8"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step7"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step6"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".ListKanji"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".MenuPage"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".FifthPage"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".FourthPage"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".ThirdPage"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".SecondPage"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".FirstPage"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step5"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step4"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step3"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".Step2"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".InitActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.KanjiButton.NoActionBar" />
     </application>
+    
 
 </manifest>
